@@ -1,18 +1,24 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "Lumenier/QAV250-Mini-FPV-Quadcopter---Carbon-Fiber-Edition",
+    "esc": "Rotorgeeks/RG20",
+    "motor": "Cobra/CM-2208-2000kv",
+    "fc": "AbuseMark/Acro-Naze32",
+    "prop": [
+      "HQProp/6x4.5-FG-BN"
+    ],
+    "arm": "Lumenier/QAV250-6\"-Carbon-Fiber-Arm-Extensions",
+    "battery": [
+      "Lumenier/1300mAh-4s-60c-Lipo",
+      "Glacier 1300mAh 4s 75c Lipo"
+    ],
+    "osd": "DTF-UHF/OSDoge-OSD-for-the-Naze32",
+    "receiver": "ImmersionRC/EZUHF-8-Channel-Lite-Receiver",
+    "flightcam": "Lumenier/CP-520-Pico---520TVL-Nano-Camera",
+    "hqcam": "GoPro/HERO3+-Black-Edition",
+    "videotx": "Team-BlackSheep/TBS-Unify-2.4GHz-800mw-16ch-VTX",
+    "blackbox": "",
+    "voltagereg": "DTF-UHF/OSDoge-OSD-for-the-Naze32"
+  },
+  "version": 1
 }
